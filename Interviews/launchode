@@ -1,0 +1,16 @@
+figures = [-1, -7, 1, 5, -7, 0];
+figures2 = [4,5,6];
+//write a function that returns the position or positions of the lowest valued integer and can handle these arrays or any other array 
+
+
+const figReturn = (num) => {
+	let numLow = 0
+	let indexPos = []
+	for(let i =0; i < num.length; i++){
+		if(numLow > num[i]){
+		numLow = num[i]
+		indexPos = [i]
+		}else if(numLow === num[i]){
+		}
+	}
+}
