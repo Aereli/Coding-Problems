@@ -1,0 +1,9 @@
+function must return n! with the constraints of 1 <= n <= 10
+
+const factorial = (n) => {
+    if( 1 <= n && n <= 10){
+        return n * factorial(n - 1)
+    }else{
+        return 1
+    }
+}
