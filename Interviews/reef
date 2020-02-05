@@ -1,0 +1,5 @@
+Palindrome
+
+const Palindrome = (string) => {
+  return string = str.split('').reverse().join('')
+}
